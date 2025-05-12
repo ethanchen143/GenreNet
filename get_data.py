@@ -18,9 +18,9 @@ import backoff
 import soundfile as sf
 
 # ── CONFIG ──
-CLIENT_ID       = "6dad214ac6f249049d2ea16396e95533"
-CLIENT_SECRET   = "2754466718b944c299de88ccad4ffb41"
-LASTFM_API_KEY  = "9ba91375b3fa52ccffec116c0656f908"
+CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
+LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
 
 # ── LOGGING ──
 logging.basicConfig(

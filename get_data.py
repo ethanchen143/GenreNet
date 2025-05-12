@@ -17,6 +17,7 @@ from urllib.parse import quote_plus
 import backoff
 import soundfile as sf
 
+
 # ── CONFIG ──
 CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
